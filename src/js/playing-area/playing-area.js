@@ -1,4 +1,4 @@
-class PlayingArea {
+export default class PlayingArea {
   // constructor(element) {
   //   this._element = element;
   // }
