@@ -1,11 +1,5 @@
-// TODO: write code here
+document.addEventListener('DOMContentLoaded', (e) => {
+  const playingArea = new PlayingArea(document.querySelector('.playing-area'));
 
-// comment this to pass build
-const unusedVariable = "variable";
-
-// for demonstration purpose only
-export default function demo(value) {
-  return `Demo: ${value}`;
-}
-
-console.log("app.js included");
+  setInterval(playingArea.randomMovingGoblin, 1000);
+})
