@@ -1,7 +1,7 @@
 class PlayingArea {
-  // constructor(element) {
-  //   this._element = element;
-  // }
+  constructor(element) {
+    this._element = element;
+  }
 
   randomMovingGoblin() {
     const goblinImg = document.createElement('img');
